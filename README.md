@@ -1,7 +1,7 @@
 # GlueStick Example Living Inside Rails
 This is an example of how you could build your GlueStick application along side a Rails application. While this is not the most common way to build a GlueStick application it may be useful for simplifying deployments.
 
-*This does not work with server side rendering and therefore gsBeforeRoute is no longer reliable*
+**This does not work with server side rendering and therefore gsBeforeRoute is no longer reliable**
 
 # Usage
 - Before the frontend will build for development mode or production you must install the npm dependencies with `cd frontend && npm install`
