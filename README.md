@@ -4,6 +4,7 @@ This is an example of how you could build your GlueStick application along side 
 *This does not work with server side rendering and therefore gsBeforeRoute is no longer reliable*
 
 # Usage
+- Before the frontend will build for development mode or production you must install the npm dependencies with `cd frontend && npm install`
 - During development you can kick off the frontend application with `rails start_frontend`.
 - For deployments you would use `rails build_frontend`
 
